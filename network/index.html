@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="keywords" content="TCP/IP, Model, Lagen, Applicatielaag, Transportlaag, Netwerklaag, Datalinklaag, Fysieke laag, Protocollen">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Het TCP/IP model zorgt voor een visuele representatie van hoe netwerken werken. De TCP/IP-protocolstack wordt officieel onderverdeeld in vijf lagen, met elk een eigen functionaliteit. ">
+  <meta name="author" content="Verena Vertonghen">
+  <link rel="shortcut icon" href="ico/favicon.ico">
+
+  <title>Multimedianetwerken</title>
+
+  <link href="css/main.css" rel="stylesheet">    
+  <link href="css/bands.css" rel="stylesheet">    
+</head>
+
+<body>
+  <div class="back-nav navbar-fixed-top special-font">
+    <ul id="top-menu" class="bw-nav">
+      <li id="nav0" class="bw-first-li active">
+        <a href="#">TCP/IP Model</a>
+      </li>
+      <li id="nav1" >
+        <a href="#Applicatie">Applicatielaag</a>
+      </li>
+      <li id="nav2" >
+        <a href="#Transport">Transportlaag</a>
+      </li>
+      <li id="nav3" >
+        <a href="#Netwerk">Netwerklaag</a>
+      </li>
+      <li id="nav4" >
+       <a href="#Datalink">Datalinklaag</a>
+     </li>
+     <li id="nav5" >
+       <a href="#Fysiek">Fysieke laag</a>
+     </li>
+     <br style="clear:both;"/>
+   </ul>
+ </div>
+ <div id="bande0">
+  <div id="bande0_960" style="padding-top:135px;">
+    <h1 class="big-title center-text special-font">TCP/IP MODEL</h1>
+    <p  class="lead center-text">
+      Het TCP/IP model zorgt voor een <span class="bold-txt">visuele representatie</span> van hoe netwerken werken.
+    </p>
+    <p class="">
+      <span class="bold-txt">TCP/IP</span> is een verzamelnaam voor de reeks <span class="bold-txt">netwerkprotocollen</span> die voor een grote meerderheid van de netwerkcommunicatie tussen computers instaan. 
+    </p>
+    <p>
+      <span class="bold-txt">Het internet</span> is het grootste en bekendste TCP/IP-netwerk. 
+    </p>
+    <p class="">
+      De naam TCP/IP is een samentrekking van de twee bekendste protocollen die deel uit maken van de TCP/IP-protocolstack: het <span class="bold-txt">Transmission Control Protocol (TCP)</span> en het <span class="bold-txt">Internet Protocol (IP)</span>. 
+    </p>
+    <br>
+    <p class="">
+      De TCP/IP-protocolstack wordt officieel onderverdeeld in <span class="bold-txt">vijf lagen</span>, met elk een eigen functionaliteit. 
+    </p>
+    <p class="">
+      Applicatielaag - Transportlaag - Netwerklaag - Datalinklaag - Fysieke laag
+
+    </p>
+    <br>
+    <p  class="lead center-text pad-top bold-txt">
+      Hoe verloopt het verzenden van data tussen 2 hosts?
+    </p>
+    <br>
+    <img class="img-laptop" src="img/laptop.png" alt="laptop" >
+    <img id="data" src="img/message.png" alt="message" class="img-message" width="50px" height="50px" style="position:absolute; margin-top:50px; margin-left:70px;">
+    <img class="img-desktop" src="img/desktop.png" alt="desktop" >
+    <br>
+    <img id="arrow" class="img-style1 center wiggle bounce" src="img/down.png" alt="network" >
+    
+  </div>
+</div>
+
+<div id="bande1">
+  <div id="bande1_1200">
+    <h1 class="big-title center-text pt10 special-font"> <a id="Applicatie">Applicatielaag</a></h1>
+    <div class="padded30">
+      <h2>Protocollen</h2>
+      <table id="appl" class="example-table">
+        <tbody>
+          <tr>
+            <th>HTTP</th>
+            <th>FTP</th>
+            <th>SMTP</th>
+            <th>DNS</th>
+            <th>DHCP</th>
+            <th>POP3</th>
+            <th>IMAP</th>
+            <th>Telnet</th>
+            <th>SNMP</th>
+            <th>RTSP</th>
+            <th>SSL</th>
+          </tr>
+          <tr>
+            <td><img src="img/http.png" alt="" class="img-table"></td>
+            <td><img src="img/ftp.gif" alt="" class="img-table"></td>
+            <td><!-- <img src="img/smtp.png" alt="" class="img-table"> --></td>
+            <td><img src="img/dns.png" alt="" class="img-table"></td>
+            <td><img src="img/dhcp.png" alt="" class="img-table"></td>
+            <td><!-- <img src="img/pop3.png" alt="" class="img-table"> --></td>
+            <td><img src="img/imap.png" alt="" class="img-table"></td>
+            <td><img src="img/telnet.png" alt="" class="img-table"></td>
+            <td><img src="img/snmp.png" alt="" class="img-table"></td>
+            <td><!-- <img src="img/rtsp.png" alt="" class="img-table"> --></td>
+            <td><!-- <img src="img/ssl.png" alt="" class="img-table"> --></td>
+          </tr>
+        </tbody>
+      </table> 
+    </div>
+    <div class="padded30">
+      <img id="" src="img/messagew.png" alt="message" class="img-icon">
+      <h2>Data</h2>
+      <p>Message</p>
+    </div>
+    <div class="padded30">
+      <img id="" src="img/address.png" alt="message" class="img-icon">
+      <h2>Adres</h2>
+      <p>Socket = IP adres + Poort</p>
+    </div>
+    <div class="padded30">
+      <img id="" src="img/security.png" alt="message" class="img-icon">
+      <h2>Security</h2>
+      <p>PGP - IDS - MD5 - SHA-1 - SHA-2 - DES - SDES - RC4 - RSA - TLS/SSL</p>
+    </div>
+    <div class="padded30">
+      <!-- <img id="" src="img/router.png" alt="message" class="img-icon"> -->
+      <h2>Connecting devices</h2>
+      <p>Gateway</p>
+    </div>
+  </div>
+</div>
+<div id="bande2">
+  <div id="bande2_960">  
+    <h1 class="big-title center-text pt10 special-font"> <a id="Transport">Transportlaag</a></h1>
+    <!-- <div class="padded30">
+      <h2>Functie</h2>
+      <p>De transportlaag verzorgt de logische communicatie tussen processen. Zorgt voor het versturen van data van de applicatielaag</p>
+    </div> -->
+    <div class="padded30">
+      <h2>Protocollen</h2>
+      <table id="tran" class="example-table">
+        <tbody>
+          <tr>
+            <th>TCP</th>
+            <th>UDP</th>
+            <th>QUIC</th>
+            <th>SSL</th>
+          </tr>
+          <tr>
+            <td><img src="img/tcp.png" alt="" class="img-table"></td>
+            <td><img src="img/udp.png" alt="" class="img-table"></td>
+            <td><!-- <img src="img/quic.png" alt="" class="img-table"> --></td>
+            <td><!-- <img src="img/ssl.png" alt="" class="img-table"> --></td>
+          </tr>
+        </tbody>
+      </table> 
+    </div>
+    <div class="padded30">
+      <img id="" src="img/messagew.png" alt="message" class="img-icon">
+      <h2>Data</h2>
+      <p>Segment</p>
+    </div>
+    <div class="padded30">
+      <img id="" src="img/address.png" alt="message" class="img-icon">
+      <h2>Adres</h2>
+      <p>Poort</p>
+    </div>
+    <div class="padded30">
+      <img id="" src="img/security.png" alt="message" class="img-icon">
+      <h2>Security</h2>
+      <p>TLS/SSL</p>
+    </div>
+    <div class="padded30">
+      <!-- <img id="" src="img/router.png" alt="message" class="img-icon"> -->
+      <h2>Connecting devices</h2>
+      <p>Gateway</p>
+    </div>
+  </div> 
+</div>
+<div id="bande3">
+  <div id="bande3_960">
+    <h1 class="big-title center-text pt10 special-font"> <a id="Netwerk">Netwerklaag</a></h1>
+    <!-- <div class="padded30">
+      <h2>Functie</h2>
+      <p>De netwerklaag verzorgt de logische communicatie tussen hosts. Zorgt ervoor dat alle paketten de juiste weg nemen en de juiste routers kiezen. </p>
+    </div> -->
+    <div class="padded30">
+      <h2>Protocollen</h2>
+      <table id="netw" class="example-table">
+        <tbody>
+          <tr>
+            <th>IPv4</th>
+            <th>IPv6</th>
+            <th>ICMP</th>
+            <th>ARP</th>
+            <th>APPLETALK</th>
+          </tr>
+          <tr>
+            <td><img src="img/ipv4.png" alt="" class="img-table"></td>
+            <td><img src="img/ipv6.png" alt="" class="img-table"></td>
+            <td><img src="img/icmp.png" alt="" class="img-table"></td>
+            <td><img src="img/arp.png" alt="" class="img-table"></td>
+            <td><!-- <img src="img/appletalk.png" alt="" class="img-table"> --></td>
+          </tr>
+        </tbody>
+      </table> 
+    </div>
+    <div class="padded30">
+      <img id="" src="img/messagew.png" alt="message" class="img-icon">
+      <h2>Data</h2>
+      <p>Datagram</p>
+    </div>
+    <div class="padded30">
+      <img id="" src="img/address.png" alt="message" class="img-icon">
+      <h2>Adres</h2>
+      <p>IP adres</p>
+    </div>
+    <div class="padded30">
+      <img id="" src="img/security.png" alt="message" class="img-icon">
+      <h2>Security</h2>
+      <p>IPSEC - VPN</p>
+    </div>
+    <div class="padded30">
+      <img id="" src="img/router.png" alt="message" class="img-icon">
+      <h2>Connecting devices</h2>
+      <p>Router/L3-Switch</p>
+    </div>
+  </div>
+</div>
+<div id="bande4">
+  <div id="bande4_1440">
+
+    <h1 class="big-title center-text pt10 special-font"> <a id="Datalink">Datalinklaag</a></h1>
+    <!-- <div class="padded30">
+      <h2>Functie</h2>
+      <p>De datalinklaag houdt zich bezig met de verbinding tussen nodes. Bepaalt het pad van een pakket langs een reeks routers tussen bron ene bestemming. </p>
+    </div> -->
+    <div class="padded30">
+      <h2>Protocollen</h2>
+      <table id="datal" class="example-table">
+        <tbody>
+          <tr>
+            <th>Ethernet</th>
+            <th>Wifi</th>
+            <th>PPP</th>
+            <th>Token ring</th>
+            <th>DOCSIS</th>
+            <th>Bluetooth</th>
+          </tr>
+          <tr>
+            <td><img src="img/ethernet.png" alt="" class="img-table"></td>
+            <td><img src="img/wifi.png" alt="" class="img-table"></td>
+            <td><img src="img/ppp.jpg" alt="" class="img-table"></td>
+            <td><img src="img/tokenring.png" alt="" class="img-table"></td>
+            <td><!-- <img src="img/docsis.png" alt="" class="img-table"> --></td>
+            <td><!-- <img src="img/bluetooth.png" alt="" class="img-table"> --></td>
+          </tr>
+        </tbody>
+      </table> 
+    </div>
+    <div class="padded30">
+      <img id="" src="img/messagew.png" alt="message" class="img-icon">
+      <h2>Data</h2>
+      <p>Frame</p>
+    </div>
+    <div class="padded30">
+      <img id="" src="img/address.png" alt="message" class="img-icon">
+      <h2>Adres</h2>
+      <p>MAC adres</p>
+    </div>
+    <div class="padded30">
+      <img id="" src="img/security.png" alt="message" class="img-icon">
+      <h2>Security</h2>
+      <p>WEP (RC4) - WPA (RC4) - WPA2(AES)</p>
+    </div>
+    <div class="padded30">
+      <img id="" src="img/switch.png" alt="message" class="img-icon">
+      <h2>Connecting devices</h2>
+      <p>Bridge/L2-Switch</p>
+    </div>
+  </div>
+</div>
+<div id="bande5">
+  <div id="bande5_960">
+
+    <h1 class="big-title center-text pt10 special-font"> <a id="Fysiek">Fysieke laag</a></h1>
+    <!-- <div class="padded30">
+      <h2>Functie</h2>
+      <p>De fysieke laag verzend data over de kabel... Afzonderlijke bits in een frame van een node naar de volgede node verplaatsen.</p>
+    </div> -->
+    <div class="padded30">
+      <h2>Fysiek transmissie medium</h2>
+      <table id="fysi" class="example-table">
+        <tbody>
+          <tr>
+            <th>Coaxiale kabel</th>
+            <th>Single-modeglasvezel</th>
+            <th>Twisted-pair-koperdraad</th>
+          </tr>
+          <tr>
+            <td><img src="img/coax.jpg" alt="" class="img-table"></td>
+            <td><img src="img/single.jpg" alt="" class="img-table"></td>
+            <td><img src="img/twisted.jpg" alt="" class="img-table"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="padded30">
+      <img id="" src="img/messagew.png" alt="message" class="img-icon">
+      <h2>Data</h2>
+      <p>Bits</p>
+    </div>
+    <div class="padded30">
+      <img id="" src="img/address.png" alt="message" class="img-icon">
+      <h2>Adres</h2>
+      <p>/</p>
+    </div>
+    <div class="padded30">
+      <img id="" src="img/security.png" alt="message" class="img-icon">
+      <h2>Security</h2>
+      <p>/</p>
+    </div>
+    <div class="padded30">
+      <img id="" src="img/hub.png" alt="message" class="img-icon">
+      <h2>Connecting devices</h2>
+      <p>Hub</p>
+    </div>
+  </div>
+</div>
+<div id="bande6">
+  <div id="bande6_960">
+
+    <img src="ico/favicon.png" alt="network" class="img-style2 center"> 
+    <p class="center-text text-muted padded10 special-font">
+      TCP/IP MODEL
+    </p>
+  </div>    
+</div>
+
+
+<script language="JavaScript" type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script language="JavaScript" type="text/javascript" src="js/scrollspy.js"></script>
+<script language="JavaScript" type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
