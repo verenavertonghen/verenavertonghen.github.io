@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="202px" height="130px" viewBox="0 0 202 130" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>LogoDark</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Custom-Preset" sketch:type="MSArtboardGroup" transform="translate(-29.000000, -65.000000)" font-weight="normal" font-family="Pirou" fill="#272639" font-size="172.8">
+            <g id="LogoDark" sketch:type="MSLayerGroup" transform="translate(28.000000, 18.000000)">
+                <text id="V" sketch:type="MSTextLayer">
+                    <tspan x="0" y="173">V</tspan>
+                </text>
+                <text id="V-Copy" sketch:type="MSTextLayer" transform="translate(128.000000, 107.500000) scale(-1, -1) translate(-128.000000, -107.500000) ">
+                    <tspan x="52" y="163">V</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.1 (33804) - http://www.bohemiancoding.com/sketch -->
+    <title>theicons.co/svg/tech-06</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="The-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="v-1.0" transform="translate(-496.000000, -656.000000)" fill="#4D4D4D">
+            <g id="Tech" transform="translate(96.000000, 656.000000)">
+                <g id="iMac" transform="translate(400.000000, 0.000000)">
+                    <path d="M22,28 L8,28 L8,32 L40,32 L40,28 L26,28 L26,28.0020869 C26,29.1055038 25.1122704,30 24,30 C22.8954305,30 22,29.1017394 22,28.0020869 L22,28 Z M40,24 L40,8 L8,8 L8,24 L40,24 Z M28.6666667,36 L42.0027084,36 C43.1084602,36 44,35.103789 44,33.9982567 L44,6.00174332 C44,4.88926172 43.1057821,4 42.0027084,4 L5.99729162,4 C4.89153983,4 4,4.89621101 4,6.00174332 L4,33.9982567 C4,35.1107383 4.89421792,36 5.99729162,36 L19.3333333,36 L18.6666667,40 L14.0049466,40 C12.8970262,40 12,40.8954305 12,42 C12,43.1122704 12.8976452,44 14.0049466,44 L33.9950534,44 C35.1029738,44 36,43.1045695 36,42 C36,40.8877296 35.1023548,40 33.9950534,40 L29.3333333,40 L28.6666667,36 Z" id="Combined-Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
