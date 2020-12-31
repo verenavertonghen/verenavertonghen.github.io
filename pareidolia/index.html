@@ -1,0 +1,123 @@
+<!--
+STRUCTURE
+	-HTML
+	-JS
+		-cdnjs
+		-backbone
+			_templates
+				_search form
+				_search results
+				_photo view
+				_detail view
+				_categories view	
+		-external js
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="description" content="Pareidolia is a psychological phenomenon. Common examples include seeing images of animals or faces in random things. It's all about seeing faces in unusual places!">
+	<meta name="keywords" content="pareidolia, faces, objects, images">
+	<meta name="author" content="Verena Vertonghen">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta charset="UTF-8">
+
+	<title>Pareidolia</title>
+
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+	<!--HTML-->
+	<div class="container">
+		<a href="#"><img class="center logo" src="img/pareidolia2.png" alt="pareidolia"/></a>
+		<div id="content">
+			<a href="index.html#search" class="btn">Search</a>
+		</div>
+		<hr/>
+		<div class="navbar navbar-inverse collapse navbar-collapse">
+			<div class="navbar-inner">
+				<ul class="nav navbar-nav">
+					<li class="active" id="nav-home"><a href="#">Home</a></li>
+					<li id="nav-popular"><a href="#popular">Popular</a></li>
+					<li id="nav-categories"><a href="#categories">Categories</a></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div id="mainDiv"></div>
+	</div>
+
+	<!--JS-->
+
+	<!--CDNJS-->
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.0.0/backbone-min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/backbone-localstorage.js/1.1.0/backbone.localStorage-min.js"></script>
+
+	<!--BACKBONE-->
+	<!--TEMPLATES--> 
+	<!--SEARCH FORM TEMPLATE-->
+	<script type="text/template" id="search-form">
+		
+		<form class="input-append" id="searchForm">
+			<button type="submit" class="btn">Search</button>
+			<input type="text" class="span4" id="searchQuery" placeholder="vb 'house'">
+		</form>
+
+		<div id="searchResults">
+		</div>
+	</script>
+
+	<!--SEARCH RESULTS TEMPLATE-->
+	<script type="text/template" id="search-results">
+		<h2>Search Results for '<%= query %>'</h2>
+
+		<% if (photos.length > 0) { %>
+		<ul>
+		<% _.each( photos, function (photo) { %>
+			<li><%= photo.get('title') %> By <%= photo.get('photo') %></li>
+		<% }); %>
+		</ul>
+		<% } else { %>
+			<p>No photos were found.</p>
+		<% } %>
+	</script>
+
+	<!--PHOTO VIEW TEMPLATE-->
+	<script type="text/template" id="photo-view-template">
+	<%= photos %>
+	</script>
+
+	<!--DETAIL VIEW TEMPLATE-->
+	<script type="text/template" id="detail-view-template">
+	<%= photoDetail %>
+	</script>
+
+	<!--CATEGORIES VIEW TEMPLATE-->
+	<script type="text/template" id="categories-view-template">
+	<div class="navbar navbar-inverse">
+		<div class="navbar-inner">
+			<ul class="nav navbar-nav">
+				<li id="category-house"><a href="#category/house">House</a></li>
+				<li id="category-food"><a href="#category/food">Food</a></li>
+				<li id="category-car"><a href="#category/car">Car</a></li>
+				<li id="category-object"><a href="#category/object">Object</a></li>
+				<li id="category-flower"><a href="#category/flower">Flower</a></li>
+				<li id="category-miscellaneous"><a href="#category/miscellaneous">Miscellaneous</a></li>
+			</ul>
+		</div>
+	</div>
+	<%= categoriesPlace %>
+	</script>
+
+	<!--EXTERNAL JS-->
+	<script src="js/bootstrap.js"></script>
+	<script src="js/photos.js"></script>
+	<script src="js/views.js"></script>
+	<script src="js/router.js"></script>
+	<!--<script src="js/localStorage.js"></script>-->
+
+</body>
+</html>

@@ -1,0 +1,440 @@
+/*===================
+Verena Vertonghen
+Q music - 2014
+
+Colors
+====================
+
+#F70E13 - q-music red
+#000000 - black
+#404040 - dark grey
+#F0F0F0 - light grey
+#FFFFFF - white
+====================*/
+
+/*Resets and overrides
+=========================*/
+.container {
+  width:940px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.row {
+  margin-left:-20px;
+  margin-bottom:10px;
+}
+
+.container:after,.row:after,.nav-tabs:after,.navbar-inner:after,.clearfix:after {
+  clear:both;
+}
+
+.container:before,.container:after,.row:before,.row:after,.nav-tabs:before,.nav-tabs:after,.navbar-inner:before,.navbar-inner:after,.clearfix:before,.clearfix:after {
+  display:table;
+  line-height:0;
+  content:"";
+}
+
+/* Main css
+=========================*/
+body{
+  background-color: #F0F0F0 !important;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+h1, h2{
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+p{
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+a{
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+label{
+  color: #404040  ;
+  margin-left: 10px;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 120%;
+}
+
+input[type='checkbox'] {
+    width: 95px;
+    height: 95px;
+    float: right;
+    background: #FFFFFF;
+}
+
+/* Classes css
+=========================*/
+.check-style{
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+.red{
+  background: #F70E13 !important;
+}
+
+.song-div {
+  background-color: #F0F0F0;
+  padding: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.song-div:hover{
+  background-color: #F70E13;
+}
+
+/* IDs css
+=========================*/
+#zoekbalk {
+    border: 2px solid #dadada;
+    border-radius: 7px;
+}
+
+#zoekbalk:focus { 
+    outline: none;
+    border-color: #F70E13;
+    box-shadow: 0 0 1px #F70E13;
+}
+
+#zoekbalk{
+  width: 260px;
+  height: 35px;
+  margin-right: 15px;
+  padding: 5px;
+}
+
+#search-icon{
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+  margin-left: 10px;
+}
+
+#mix-info{
+  display: none;
+  height: 210px;
+  width: 210px;
+  background: #F70E13;
+  color: #FFFFFF;
+  padding: 15px;
+  margin-top: 30px;
+  margin-left: 120px;
+  text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.07);
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: inset 0px -4px 0px 0px rgba(0, 0, 0, 0.04);
+  -webkit-box-shadow: inset 0px -4px 0px 0px rgba(0, 0, 0, 0.04);
+  box-shadow: inset 0px -4px 0px 0px rgba(0, 0, 0, 0.04);
+  -ms-transition: all 0.21s ease;
+  -moz-transition: all 0.21s ease;
+  -o-transition: all 0.21s ease;
+  transition: all 0.21s ease;
+  transition-property: padding;
+  transition-duration: 0.25s;
+  transition-timing-function: linear;
+}
+
+#mixtape-link{
+  color: #F70E13;
+  font-size: 150%;
+  font-weight: bold;
+  border-bottom: 2px solid #F70E13;
+}
+
+#mixtape-link:hover{
+  color: #F70E13;
+  border-bottom: 3px solid #F70E13;
+  text-decoration: none;
+}
+
+#arrow{
+  width: 50px;
+  margin-bottom: 100px;
+  margin-left: 70px;
+}
+
+#left-content{
+  float: left;
+}
+
+#main-content{
+  background: #FFFFFF;
+  width: 760px;
+  height: 600px;
+  padding: 25px 45px;
+  float: left;
+  border-radius: 10px;
+}
+
+#create-mixtape{
+  text-align: center;
+  width: 150px;
+}
+
+#create-content{
+  background: #FFFFFF;
+  width: 760px;
+  border-radius: 10px;
+  float: left;
+}
+
+#select-preview{
+  background: #F70E13;
+  color: #FFFFFF;
+  width: 380px;
+  border-radius: 10px;
+  float: left;
+  padding: 20px 30px !important;
+  text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.07);
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: inset 0px -4px 0px 0px rgba(0, 0, 0, 0.04);
+  -webkit-box-shadow: inset 0px -4px 0px 0px rgba(0, 0, 0, 0.04);
+  box-shadow: inset 0px -4px 0px 0px rgba(0, 0, 0, 0.04);
+  -ms-transition: all 0.21s ease;
+  -moz-transition: all 0.21s ease;
+  -o-transition: all 0.21s ease;
+  transition: all 0.21s ease; 
+}
+
+#select-content{
+  background: #FFFFFF;
+  color: #F70E13;
+  width: 1140px;
+  border-radius: 10px;
+}
+
+#logo{
+  display: block;
+  margin: 20px auto 20px auto;
+  height: 100px;
+}
+
+#mixtape{
+  display: block;
+  margin-top: 40px;
+  padding: 10px;
+  width: 380px;
+}
+
+#mixtape:hover{
+  transform:scale(1.3);
+  -ms-transform:scale(1.3); 
+  -webkit-transform:scale(1.3); 
+}
+
+#txt-f{
+  font-size: 140%;
+  font-weight: bold;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+}
+
+#footer-logo{
+  width: 200px;
+  height: auto;
+  margin-right: 30px;
+  margin-left: 10px;
+}
+
+#arrow-f{
+  height: 20px;
+  margin-left: 215px;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+
+#amp{
+  font-size: 500%;
+  font-weight: bold;
+  float: left;
+  padding: 15px;
+}
+
+/* Images css
+=========================*/
+.icon-img{
+  width: 130px;
+  height: 130px;
+  padding: 10px;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+
+.icon-img:hover{
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+}
+
+.icon-img-f{
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+
+.icon-img-f:hover{
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+}
+
+.icon-img-n{
+  width: 75px;
+  height: 75px;
+}
+
+.small-img{
+  height: 100px;
+  width: 100px;
+  padding: 5px;
+}
+
+/* Text css
+=========================*/
+.special-font{
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+.big-title{
+  font-weight: bold;
+  color: #F70E13;
+}
+
+.reg-text{
+  color: #404040;
+}
+
+.special-p{
+  font-size: 150% !important;
+}
+
+.preview-p{
+  margin-bottom: 5px !important;
+  font-size: 13px !important;
+}
+
+.spec-h{
+  font-weight: bold;
+}
+
+/* Button css
+=========================*/
+a.my-btn {
+  margin-top: 10px;
+  text-decoration: none;
+  font-weight: 800;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  display: inline-block;
+  padding: 15px 35px;
+  background: #F70E13;
+  text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.07);
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: inset 0px -4px 0px 0px rgba(0, 0, 0, 0.04);
+  -webkit-box-shadow: inset 0px -4px 0px 0px rgba(0, 0, 0, 0.04);
+  box-shadow: inset 0px -4px 0px 0px rgba(0, 0, 0, 0.04);
+  -ms-transition: all 0.21s ease;
+  -moz-transition: all 0.21s ease;
+  -o-transition: all 0.21s ease;
+  transition: all 0.21s ease;
+  transition-property: padding;
+  transition-duration: 0.25s;
+  transition-timing-function: linear;
+}
+
+a.my-btn:hover {
+  color: #FFFFFF;
+  padding: 15px 45px;
+  text-shadow: none;
+  text-decoration: none;
+}
+
+a.my-btn-w{
+  background: #FFFFFF;
+  color: #F70E13;
+}
+
+a.my-btn-w:hover{
+  background: #FFFFFF;
+  color: #F70E13;
+}
+
+a.my-btn-s{
+  background: #404040;
+  color: #F0F0F0;
+  font-size: 15px;
+  padding: 10px 30px;
+  margin-bottom: 20px;
+}
+
+a.my-btn-s:hover{
+  background: #404040;
+  color: #F0F0F0;
+  font-size: 15px;
+  padding: 10px 40px;
+  margin-bottom: 20px;
+}
+
+
+/* Layout css
+=========================*/
+.float-right{
+  float: right;
+}
+
+.float-left{
+  float: left;
+}
+
+.margin-r20{
+  margin-right: 20px;
+}
+
+.two-column{
+  width: 320px;
+}
+
+.margin-l20{
+  margin-left: 20px;
+}
+
+/* Sticky footer css
+=========================*/
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+.wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -4em;
+}
+
+.footer, .push {
+  height: 4em;
+}
+
+.footer{
+  background: #F70E13;
+  height: 200px;
+  color: #FFFFFF;
+  padding: 50px;
+}

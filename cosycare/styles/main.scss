@@ -1,0 +1,28 @@
+/* MAIN
+-------------------------*/
+
+// bower:scss
+@import "bower_components/bourbon/app/assets/stylesheets/_bourbon.scss";
+@import "bower_components/neat/app/assets/stylesheets/_neat.scss";
+// endbower
+
+@import "Base/_reset.scss";
+@import "Base/_fonts.scss";
+@import "Base/_variables.scss";
+@import "Base/_mixins.scss";
+@import "Base/_base.scss";
+
+@import "Modules/_anchor.scss";
+@import "Modules/_button.scss";
+@import "Modules/_footer.scss";
+@import "Modules/_grid-items.scss";
+@import "Modules/_modal.scss";
+@import "Modules/_skill-items.scss";
+@import "Modules/_parallax.scss";
+@import "Modules/_points.scss";
+@import "Modules/_top-nav.scss";
+
+@import "Layout/_mylayout.scss";
+
+@import "_animate.scss";
+@import "_typography.scss";

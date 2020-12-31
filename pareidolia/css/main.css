@@ -1,0 +1,131 @@
+/*====================
+Verena Vertonghen
+Concepting - Backbone Project - Pareidolia - 2013
+
+/*Resets and overrides
+====================*/
+.container {
+width:940px;
+margin-left:auto;
+margin-right:auto;
+}
+
+.row {
+margin-left:-20px;
+margin-bottom:10px;
+}
+
+.container:after,.row:after,.nav-tabs:after,.navbar-inner:after,.clearfix:after {
+clear:both;
+}
+
+.container:before,.container:after,.row:before,.row:after,.nav-tabs:before,.nav-tabs:after,.navbar-inner:before,.navbar-inner:after,.clearfix:before,.clearfix:after {
+display:table;
+line-height:0;
+content:"";
+}
+
+/*Links and type
+====================*/
+hr {
+  width:940px;
+  margin:5px 0;
+  border-right-width: 0;
+  border-left-width: 0;
+}
+
+ul,ol {
+margin:0 0 15px;
+}
+
+ul {
+list-style-type:none;
+}
+
+li {
+word-wrap:break-word;
+padding-bottom:2px;
+}
+
+html {
+font-size:100%;
+margin:0;
+background-color:#FFFFFF;
+}
+
+body {
+padding-top: 20px;
+padding-bottom: 60px;
+font-weight: 300;
+
+}
+
+
+/*Image
+====================*/
+.thumbnail-normal {
+  display: inline-block;
+  height: 225px;
+  width: 225px;
+  padding: 6px;
+  float:left;
+  border-radius: 15px;
+  margin:5px;
+}
+
+.detail-img {
+  display: inline-block;
+  height: 325px;
+  width: 325px;
+  padding: 6px;
+  border-radius: 15px;
+}
+
+#photosView{
+  width: 940px;
+}
+
+.logo{
+width: auto;
+height: 180px;
+padding: 5px;
+}
+
+/*Text
+====================*/
+.detail-text{
+font-size:350%;
+}
+
+/*Miscellaneous
+====================*/
+.backbone-url:after {
+content: " (" attr(href) ")";
+}
+
+#mainDiv{
+width:940px;
+}
+
+.center{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.content{
+width: 940px;
+}
+
+.navbar{
+width: 940px;
+}
+
+#inputTitle{
+width: 350px;
+}
+.btn-rating{
+background-color: #000000;
+color: #FFFFFF;
+margin-top: 10px;
+}
