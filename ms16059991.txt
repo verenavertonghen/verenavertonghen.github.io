@@ -1,0 +1,5 @@
+{
+  "Description": "Controlebestand voor domeineigendom voor Microsoft 365 - plaats in de hoofdmap van de website",
+  "Domain": "paytalent.be",
+  "Id": "12dd0630-e198-4d67-add0-e9a10463d337"
+}
