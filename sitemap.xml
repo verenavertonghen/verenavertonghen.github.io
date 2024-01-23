@@ -2,14 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://verenavertonghen.github.io/portfolio/</loc>
-    <lastmod>2022-08-12T00:00:00+00:00</lastmod>
+    <loc>https://verenavertonghen.github.io/portfolio/project-bbody/</loc>
+    <lastmod>2023-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://verenavertonghen.github.io/portfolio/project-sapphire-design-system/</loc>
-    <lastmod>2022-08-12T00:00:00+00:00</lastmod>
+    <loc>https://verenavertonghen.github.io/portfolio/</loc>
+    <lastmod>2023-10-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://verenavertonghen.github.io/</loc>
-    <lastmod>2022-08-12T00:00:00+00:00</lastmod>
+    <lastmod>2023-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://verenavertonghen.github.io/portfolio/project-simply-asbest/</loc>
+    <lastmod>2023-06-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://verenavertonghen.github.io/portfolio/project-eurocontrol/</loc>
+    <lastmod>2023-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://verenavertonghen.github.io/portfolio/project-paytalent/</loc>
+    <lastmod>2022-09-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://verenavertonghen.github.io/categories/blog/</loc>
     <lastmod>2020-09-13T12:49:27+06:00</lastmod>
@@ -62,13 +71,22 @@
     <loc>https://verenavertonghen.github.io/blog/you-must-know-this-before-becoming-a-designer/</loc>
     <lastmod>2020-07-13T12:49:27+06:00</lastmod>
   </url><url>
+    <loc>https://verenavertonghen.github.io/portfolio/project-sapphire-design-system/</loc>
+    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://verenavertonghen.github.io/portfolio/project-delen-private-bank/</loc>
     <lastmod>2017-10-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://verenavertonghen.github.io/portfolio/project-delen-private-bank-internal-applications/</loc>
+    <lastmod>2017-10-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://verenavertonghen.github.io/project-greenstack/</loc>
+    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://verenavertonghen.github.io/portfolio/project-vdab/</loc>
     <lastmod>2015-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://verenavertonghen.github.io/portfolio/project-qmusic-mixtape/</loc>
+    <loc>https://verenavertonghen.github.io/project-qmusic-mixtape/</loc>
     <lastmod>2014-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://verenavertonghen.github.io/contact/</loc>
